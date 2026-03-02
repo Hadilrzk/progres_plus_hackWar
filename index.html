@@ -18,24 +18,26 @@
          <h1>PROGRES+</h1>
          <p class="sub">Ministry of Higher Education<br>and Scientific Research</p>
         </div>
-</div>
-<div class="login-main">
-<div class="login-box">
-<button class="student-access-btn">Student Access</button>
-<div>
-<label class="lbl">Registration Number</label>
-<input class="inp" type="text" placeholder="ex: 202400000000">
-<label class="lbl">Password</label>
-<input class="inp" type="password" placeholder="••••••••••">
-<button class="btn-lg" onclick="openApp()">Login</button>
-   <div class="divline">or</div>
-   <button class="bio-btn"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0110 0v4"></path></svg> Biometric Login</button>
-</div>
-</div>
-</div>
+    </div>
+    
+    <div class="login-main">
+      <div class="login-box">
+         <button class="student-access-btn">Student Access</button>
+          <div>
+            <label class="lbl">Registration Number</label>
+            <input class="inp" type="text" placeholder="ex: 202400000000">
+            <label class="lbl">Password</label>
+            <input class="inp" type="password" placeholder="••••••••••">
+            <button class="btn-lg" onclick="openApp()">Login</button>
+            <div class="divline">or</div>
+            <button class="bio-btn"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0110 0v4"></path></svg> Biometric Login</button>
+          </div>
+      </div>
+  </div>
 </div>
 
-<!-- ══ APP ══ -->
+
+<!-- app -->
 <div id="app-page" class="page">
 
 <!-- Sidebar overlay -->
@@ -43,57 +45,57 @@
 
 <!-- Sidebar -->
 <div class="sidebar" id="sidebar">
-<div class="sidebar-head">
-<div class="sidebar-logo">
-<div class="tb-icon">P+</div>
-<span class="tb-name">PROGRES+</span>
-</div>
-<button class="sidebar-close" onclick="closeSidebar()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
-</div>
-<div class="sidebar-student">
-<div class="sidebar-av" id="sb-av">AM</div>
-<div>
-<div class="sidebar-nm" id="sb-nm">Amira k.</div>
-<div class="sidebar-info" id="sb-info">Section:1 · G:1</div>
-</div>
-</div>
-<nav class="sidebar-nav">
-<button class="snav-btn on" data-sec="dashboard"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5L12 3l9 6.5"/><path d="M9 22V12h6v10"/></svg></span> Dashboard</button>
-<button class="snav-btn" data-sec="marks"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V10"/><path d="M8 20V6"/><path d="M16 20v-4"/></svg></span> Academic Marks</button>
-<button class="snav-btn" data-sec="timetable"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg></span> Timetable</button>
-<button class="snav-btn" data-sec="profile"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-3-3.87"/><path d="M4 21v-2a4 4 0 013-3.87"/><circle cx="12" cy="7" r="4"/></svg></span> Profile</button>
-</nav>
+   <div class="sidebar-head">
+      <div class="sidebar-logo">
+         <div class="tb-icon">P+</div>
+         <span class="tb-name">PROGRES+</span>
+      </div>
+      <button class="sidebar-close" onclick="closeSidebar()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+   </div>
+   <div class="sidebar-student">
+      <div class="sidebar-av" id="sb-av">AM</div>
+      <div>
+        <div class="sidebar-nm" id="sb-nm">Amira k.</div>
+        <div class="sidebar-info" id="sb-info">Section:1 · G:1</div>
+     </div>
+   </div>
+   <nav class="sidebar-nav">
+       <button class="snav-btn on" data-sec="dashboard"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5L12 3l9 6.5"/><path d="M9 22V12h6v10"/></svg></span> Dashboard</button>
+       <button class="snav-btn" data-sec="marks"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V10"/><path d="M8 20V6"/><path d="M16 20v-4"/></svg></span> Academic Marks</button>
+       <button class="snav-btn" data-sec="timetable"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg></span> Timetable</button>
+      <button class="snav-btn" data-sec="profile"><span class="snav-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-3-3.87"/><path d="M4 21v-2a4 4 0 013-3.87"/><circle cx="12" cy="7" r="4"/></svg></span> Profile</button>
+   </nav>
 </div>
 
 <!-- Topbar -->
 <header class="topbar">
-<div class="tb-left">
-<!-- Hamburger (mobile only) -->
-<button class="ham-btn" onclick="openSidebar()">
-<span></span><span></span><span></span>
-</button>
-<div class="tb-logo">
-<div class="tb-icon">P+</div>
-<span class="tb-name">PROGRES+</span>
-</div>
-<nav class="top-nav">
-<button class="tnav on" data-sec="dashboard">Dashboard</button>
-<button class="tnav" data-sec="marks">Academic Marks</button>
-<button class="tnav" data-sec="timetable">Timetable</button>
-<button class="tnav" data-sec="profile">Profile</button>
-</nav>
-</div>
-<div class="tb-right">
-<span class="pill-sm">Section: 1 &nbsp; G:1</span>
-<div class="notif-wrap">
-<div class="ico" id="bell-btn" onclick="toggleNotif()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg><span class="notif-dot" id="notif-dot"></span></div>
-<div class="notif-dropdown" id="notif-dropdown">
-<div class="nd-header"><h4>Notifications</h4><button class="nd-clear" onclick="clearNotifs()">Mark all read</button></div>
-<div id="nd-list"></div>
-</div>
-</div>
-<button class="av" onclick="closeApp()">AM</button>
-</div>
+   <div class="tb-left">
+       <!-- Hamburger (mobile only) -->
+      <button class="ham-btn" onclick="openSidebar()">
+       <span></span><span></span><span></span>
+      </button>
+      <div class="tb-logo">
+         <div class="tb-icon">P+</div>
+         <span class="tb-name">PROGRES+</span>
+      </div>
+      <nav class="top-nav">
+         <button class="tnav on" data-sec="dashboard">Dashboard</button>
+         <button class="tnav" data-sec="marks">Academic Marks</button>
+         <button class="tnav" data-sec="timetable">Timetable</button>
+         <button class="tnav" data-sec="profile">Profile</button>
+      </nav>
+  </div>
+   <div class="tb-right">
+     <span class="pill-sm">Section: 1 &nbsp; G:1</span>
+     <div class="notif-wrap">
+       <div class="ico" id="bell-btn" onclick="toggleNotif()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg><span class="notif-dot" id="notif-dot"></span></div>
+       <div class="notif-dropdown" id="notif-dropdown">
+         <div class="nd-header"><h4>Notifications</h4><button class="nd-clear" onclick="clearNotifs()">Mark all read</button></div>
+         <div id="nd-list"></div>
+       </div>
+     </div>
+     <button class="av" onclick="closeApp()">AM</button>
+   </div>
 </header>
 
 <!-- Content -->
@@ -101,94 +103,94 @@
 
 <!-- DASHBOARD -->
 <div id="dashboard" class="sec on">
-<div class="ph"><h2>Dashboard</h2><small id="dash-meta"></small></div>
-<div class="notif-bar" id="notif-bar">
-<div><h3 id="notif-bar-title"></h3><p id="notif-bar-sub"></p></div>
-<button class="notif-cta" onclick="goSec('marks')">see now →</button>
-</div>
-<div class="stats">
-<div class="stat-card"><div class="sv blue" id="d-avg"></div><div class="sl">Overall average</div></div>
-<div class="stat-card">
-<div style="display:flex;align-items:baseline;gap:2px">
-<span class="sv green" id="d-passed"></span>
-<span style="font-size:16px;font-weight:500;color:var(--muted)" id="d-total"></span>
-</div>
-<div class="sl">Passed modules</div>
-</div>
-<div class="stat-card"><div class="sv green" id="d-schol"></div><div class="sl">Scholarship</div><div class="ss" id="d-schol-amt"></div></div>
-</div>
-<div class="btm">
-<div class="card">
-<div class="card-title">Today's classes</div>
-<div id="today-classes"></div>
-<button class="pill-btn" onclick="goSec('timetable')">timetable →</button>
-</div>
-<div class="card">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-<span class="card-title" style="margin-bottom:0">University Calendar</span>
-<span style="font-size:12px;color:var(--muted)" id="cal-day"></span>
-</div>
-<div class="cal-date" id="cal-date"></div>
-<div class="cal-ev" id="cal-ev"></div>
-<button class="pill-btn" onclick="openModal()">see more →</button>
-</div>
-</div>
+   <div class="ph"><h2>Dashboard</h2><small id="dash-meta"></small></div>
+   <div class="notif-bar" id="notif-bar">
+      <div><h3 id="notif-bar-title"></h3><p id="notif-bar-sub"></p></div>
+      <button class="notif-cta" onclick="goSec('marks')">see now →</button>
+   </div>
+  <div class="stats">
+     <div class="stat-card"><div class="sv blue" id="d-avg"></div><div class="sl">Overall average</div></div>
+     <div class="stat-card">
+        <div style="display:flex;align-items:baseline;gap:2px">
+          <span class="sv green" id="d-passed"></span>
+          <span style="font-size:16px;font-weight:500;color:var(--muted)" id="d-total"></span>
+       </div>
+       <div class="sl">Passed modules</div>
+     </div>
+     <div class="stat-card"><div class="sv green" id="d-schol"></div><div class="sl">Scholarship</div><div class="ss" id="d-schol-amt"></div></div>
+  </div>
+  <div class="btm">
+    <div class="card">
+       <div class="card-title">Today's classes</div>
+       <div id="today-classes"></div>
+       <button class="pill-btn" onclick="goSec('timetable')">timetable →</button>
+     </div>
+    <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <span class="card-title" style="margin-bottom:0">University Calendar</span>
+          <span style="font-size:12px;color:var(--muted)" id="cal-day"></span>
+        </div>
+       <div class="cal-date" id="cal-date"></div>
+        <div class="cal-ev" id="cal-ev"></div>
+        <button class="pill-btn" onclick="openModal()">see more →</button>
+      </div>
+   </div>
 </div>
 
 <!-- MARKS -->
 <div id="marks" class="sec">
-<div class="ph"><h2>Academic Marks</h2><small id="marks-meta"></small></div>
-<div class="sem-tabs" id="sem-tabs"></div>
-<div class="mm">
-<span class="mm-d" id="m-dec"></span>
-<span class="mm-a" id="m-avg"></span>
-<span class="mm-c" id="m-cred"></span>
-</div>
-<div class="tbl-wrap">
-<table class="mt">
-<thead><tr><th>Module</th><th>Coeff</th><th>CC</th><th>Exam</th><th>Avg</th></tr></thead>
-<tbody id="marks-body"></tbody>
-</table>
-</div>
+   <div class="ph"><h2>Academic Marks</h2><small id="marks-meta"></small></div>
+   <div class="sem-tabs" id="sem-tabs"></div>
+   <div class="mm">
+      <span class="mm-d" id="m-dec"></span>
+      <span class="mm-a" id="m-avg"></span>
+      <span class="mm-c" id="m-cred"></span>
+   </div>
+   <div class="tbl-wrap">
+     <table class="mt">
+      <thead><tr><th>Module</th><th>Coeff</th><th>CC</th><th>Exam</th><th>Avg</th></tr></thead>
+      <tbody id="marks-body"></tbody>
+     </table>
+   </div>
 </div>
 
 <!-- TIMETABLE -->
 <div id="timetable" class="sec">
-<div class="ph"><h2>Timetable</h2><small id="tt-meta"></small></div>
-<div class="tt-legend">
-<span class="tl tl-c">Cour</span>
-<span class="tl tl-td">TD</span>
-<span class="tl tl-tp">TP</span>
-</div>
-<div class="tt-wrap">
-<table class="tt">
-<thead><tr><th style="width:90px;padding:10px 14px">Day</th><th>08:00–09:30</th><th>10:00–11:30</th><th>12:00–13:30</th></tr></thead>
-<tbody id="tt-body"></tbody>
-</table>
-</div>
+   <div class="ph"><h2>Timetable</h2><small id="tt-meta"></small></div>
+   <div class="tt-legend">
+      <span class="tl tl-c">Cour</span>
+      <span class="tl tl-td">TD</span>
+      <span class="tl tl-tp">TP</span>
+   </div>
+   <div class="tt-wrap">
+    <table class="tt">
+     <thead><tr><th style="width:90px;padding:10px 14px">Day</th><th>08:00–09:30</th><th>10:00–11:30</th><th>12:00–13:30</th></tr></thead>
+     <tbody id="tt-body"></tbody>
+    </table>
+   </div>
 </div>
 
 <!-- PROFILE -->
 <div id="profile" class="sec">
-<div class="ph"><h2>Personal informations</h2><small id="prof-meta"></small></div>
-<div class="prof-grid">
-<div class="prof-card">
-<div class="prof-head">
-<div class="prof-av" id="p-init"></div>
-<div><div class="prof-nm" id="p-name"></div><div class="prof-yr" id="p-year"></div></div>
-</div>
-<div class="ir"><span class="ik">Level</span><span class="iv" id="p-level"></span></div>
-<div class="ir"><span class="ik">Major</span><span class="iv" id="p-major"></span></div>
-<div class="ir"><span class="ik">Section / Group</span><span class="iv" id="p-section"></span></div>
-<div class="ir"><span class="ik">Year</span><span class="iv" id="p-year2"></span></div>
-</div>
-<div class="schol-card">
-<div class="schol-status" id="p-schol-s"></div>
-<div class="schol-amt" id="p-schol-a"></div>
-<div class="schol-date" id="p-schol-d"></div>
-</div>
-</div>
-<div class="ev-grid" id="prof-events"></div>
+   <div class="ph"><h2>Personal informations</h2><small id="prof-meta"></small></div>
+   <div class="prof-grid">
+     <div class="prof-card">
+        <div class="prof-head">
+          <div class="prof-av" id="p-init"></div>
+          <div><div class="prof-nm" id="p-name"></div><div class="prof-yr" id="p-year"></div></div>
+        </div>
+        <div class="ir"><span class="ik">Level</span><span class="iv" id="p-level"></span></div>
+        <div class="ir"><span class="ik">Major</span><span class="iv" id="p-major"></span></div>
+         <div class="ir"><span class="ik">Section / Group</span><span class="iv" id="p-section"></span></div>
+        <div class="ir"><span class="ik">Year</span><span class="iv" id="p-year2"></span></div>
+      </div>
+     <div class="schol-card">
+       <div class="schol-status" id="p-schol-s"></div>
+        <div class="schol-amt" id="p-schol-a"></div>
+        <div class="schol-date" id="p-schol-d"></div>
+     </div>
+  </div>
+  <div class="ev-grid" id="prof-events"></div>
 </div>
 
 </div>
@@ -196,13 +198,13 @@
 
 <!-- MODAL -->
 <div class="modal-overlay" id="modal" onclick="closeModal(event)">
-<div class="modal-box">
-<div class="modal-header">
-<h3><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg> University Calendar 2025–2026</h3>
-<button class="modal-close" onclick="closeModal()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
-</div>
-<div class="modal-body" id="modal-body"></div>
-</div>
+   <div class="modal-box">
+     <div class="modal-header">
+       <h3><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg> University Calendar 2025–2026</h3>
+       <button class="modal-close" onclick="closeModal()"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+      </div>
+     <div class="modal-body" id="modal-body"></div>
+   </div>
 </div>
 
 <script src="script.js"></script>
